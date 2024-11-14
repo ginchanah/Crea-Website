@@ -61,6 +61,15 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
+  Website Sabrina: Mojo.nl
+
+  De afbeeldingen hebben geen goede naam,
+  Ik blijf hangen in de navigatie lijst
+  Soms zeggen ze "link" en "clickable" maar het is niet clickable, ik kom niet verder
+  "Item was removed" ik weet niet wat geselecteerd was
+  ik blijf hangen in een group, hij zegt dat ik eruit ben maar ik kom nog steeds niet verder
+  als ik headers laat voorlezen krijg ik allemaal namen die nergens op slaan, geen idee wat er staat op die website
+  het is onmogelijk om op de knop te komen waar je een kaartje moet kopen
 
 </details>
 
