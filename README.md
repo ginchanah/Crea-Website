@@ -37,6 +37,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Je opdracht:
   https://www.crea.nl/
+  https://ginchanah.github.io/Crea-Website/
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   Crea.nl 
