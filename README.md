@@ -71,6 +71,15 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   als ik headers laat voorlezen krijg ik allemaal namen die nergens op slaan, geen idee wat er staat op die website
   het is onmogelijk om op de knop te komen waar je een kaartje moet kopen
 
+  ### Fotos van WCAG checklist website Crea
+  <img src="readme-images/WCAG-1.jpeg" width="375px" alt="WCAG checklist foto">
+  <img src="readme-images/WCAG-2.jpeg" width="375px" alt="WCAG checklist foto">
+  <img src="readme-images/WCAG-3.jpeg" width="375px" alt="WCAG checklist foto">
+  <img src="readme-images/WCAG-4.jpeg" width="375px" alt="WCAG checklist foto">
+  <img src="readme-images/WCAG-5.jpeg" width="375px" alt="WCAG checklist foto">
+
+  Ik moet vooral aan de slag met kleuren, controls en images verbeteren
+
 </details>
 
 
