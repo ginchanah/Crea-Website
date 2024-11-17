@@ -78,7 +78,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <img src="readme-images/WCAG-4.jpeg" width="375px" alt="WCAG checklist foto">
   <img src="readme-images/WCAG-5.jpeg" width="375px" alt="WCAG checklist foto">
 
-  Ik moet vooral aan de slag met kleuren, controls en images verbeteren
+  Ik moet vooral aan de slag met kleuren, controls en images verbeteren.
 
 </details>
 
@@ -90,13 +90,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/breakdown-schets.png" width="375px" alt="breakdown van de hele pagina">
 
-  ### dynamisch deel (bijv menu): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
+  ### dynamisch deel: Filter
+  <img src="readme-images/breakdown-filter.png" width="375px" alt="breakdown van een dynamische filter">
 
-  ### wellicht nog een dynamisch deel (bijv filter): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+  ### wellicht nog een dynamisch deel: Hamburger menu 
+  <img src="readme-images/breakdown-hamburgermenu.png" width="375px" alt="breakdown van een dynamisch hamburger menu">
 
 </details>
 
