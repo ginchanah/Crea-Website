@@ -17,8 +17,6 @@
 	/* startje */
 	--color-text:#111;
 	--color-background:#eee;
-	--margin-right: 0.5em;
-	--margin-left: 0.5em;
 }
 
 
@@ -27,8 +25,19 @@
 /****************/
 
 * {
-	font-family: 'Roboto', Verdana, Arial;
+	font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
 	font-size: 1em;
+	box-sizing: border-box;
+	
+}
+
+body{
+	margin: 0 1em;
+	line-height: 22px;
+}
+
+img {
+	max-width: 100%;
 }
 
 
@@ -42,30 +51,22 @@
 	/****************/
 
 header{
-	margin: 0.8em 0.5em;
+	margin-top: 0.8em;
 }
 
 h1 {
 	max-width: 14.5em;
 }
 
-h1 img{
-	max-width: 100%;
-}
-
 header button {
-	max-width: 2.3em;
+	max-width: 2.1em;
 	padding: 0;
-	margin-top: 2em;
+	margin-top: 1.7em;
 	align-self: flex-start;
 	border: none;
 	cursor: pointer;
 	background: none;
 
-}
-
-button img {
-	max-width: 100%;
 }
 
 header>section {
@@ -75,14 +76,36 @@ header>section {
 
 
 /* Hamburger Menu */
-ul {
+header ul {
 	display: none;
-	transition: 1s;
+	list-style: none;
+	padding: 0;
+	margin: 0;
 }
 
-button::
+header ul.show {
+	display: block;
+	border-top: 3px solid #e5e5e5;
+}
 
+/* menu styling */ 
+header ul li{
+	background: #F0F2F5;
+	border-bottom: 1px solid #E1E2E4;
+}
 
+header ul a {
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #555;
+	font-weight: 700;
+	font-size: 0.9em;
+}
+
+header ul > * {
+	display: block;
+	padding: 1.25em 2.3em;
+}
 
 
 
