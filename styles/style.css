@@ -475,7 +475,9 @@ main section:nth-of-type(3) ul li:last-of-type button span{
 	/* Section 4    */
 	/****************/
 
-
+main section:nth-of-type(4) {
+	margin-top: 3em;
+}
 
 main section:nth-of-type(4)>div{
 	background-color: #B54764;
@@ -484,6 +486,17 @@ main section:nth-of-type(4)>div{
 main section:nth-of-type(4)>div div {
   	border-bottom: 3px solid #B54764;
 }
+
+
+main section:nth-of-type(4) ul {
+	list-style: none;
+	margin: 0px;
+}
+
+main section:nth-of-type(4) ul li {
+	background-color: #e5e5e5;
+}
+
 
 	/****************/
 	/* Medium: Tablet */
