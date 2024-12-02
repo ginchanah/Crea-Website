@@ -110,7 +110,15 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 1<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Ik heb de body eerst een margin van 1 gegeven maar daarom moest ik, om de hele pagina in te vullen, de eerste section een margin van -1 geven, en duurde heel lang voordat de styling er goed in zat. Waarschijnlijk moet ik de margin van de body aanpassen en dan ook nog de section veranderen maar ik heb er al zo veel tijd aan besteed dat ik dat nu lastig vindt. Verder moet ik vooral verder met styling van de rest van de pagina. 
+  De eerste section geeft in de originele pagina de tekst via een image weer, maar dat moet anderes, dus ik moet daarvoor nog een betere vormgeving verzinnen.
+
+  <img src="readme-images/proces-week1.png" width="375px" alt="proces van website en code">
+
+  De header is nu nog niet responsive genoeg, moet nog beter voor desktop formaat.
+
+  <img src="readme-images/proces-week1-2.png" width="375px" alt="proces van website">
+
 
 
   ### Agenda voor meeting
@@ -122,14 +130,17 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
   | ...            | ...                | ...          | ...              |
 
+  Niet gedaan!
+
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - ik ben nog niet heel goed op weg, ik heb alleen maar styling van de header en de eerste section
+  -margin van de body aanpassen
+  -styling van de eerste section veranderen
+  -vormgeving van section 1 aanpassen en mooier maken
+  -header responsive maken
 
 </details>
 
@@ -143,7 +154,30 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 2<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  De styling van de eerste section is nu wel beter maar nog niet goed. Ik ga dit tot het laaste moment uitstellen omdat ik niet echt verder kom omdat ik alleen maar hieraan werk en niet weet hoe ik dat goed kan doen.
+
+  De styling is nu wel veranderd en de body heeft een margin van 0 zodat ik geen margin: -1 voor de andere elementen moet gebruiken.
+
+   <img src="readme-images/week-2-1.png" width="375px" alt="proces van website en code">
+
+   Ik heb het menu gemaakt en hover states toegevoegd, die een betere contrast hebben dan de originele website.
+
+   <img src="readme-images/week-2.png" width="375px" alt="proces van website en code">
+
+   Ik heb nu ook een responsive grid voor de tweede section en beter kleurcontrast. 
+
+   <img src="readme-images/week-2-2.png" width="375px" alt="proces van website en code">
+
+   De derde section is nu ook in een responsive grid en beter kleurcontrast. Ik ben vooral trotz erop dat het image altijd binnen de verhoudingen van de figure blijft.
+
+   <img src="readme-images/week-2-3.png" width="375px" alt="proces van website en code">
+
+   <img src="readme-images/week-2-4.png" width="375px" alt="proces van website en code">
+
+   verder moet ik vooral alles nog aanpassen en verder uitwerken, zoals bij section 4.
+
+    <img src="readme-images/week-2-5.png" width="375px" alt="proces van website en code">
+  
 
 
   ### Agenda voor meeting
@@ -154,14 +188,15 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
   | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
   | ...            | ...                | ...          | ...              |
-
+ 
+ Niet gedaan!
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
+  - de vierde section uitwerken
+  - de rest van de pagina afmaken
+  - meer focus leggen of responsiveness en dat nog verder afmaken
 - ...
 
 </details>
