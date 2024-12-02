@@ -28,16 +28,22 @@
 	font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
 	font-size: 1em;
 	box-sizing: border-box;
-	
+
 }
 
 body{
-	margin: 0 1em;
+	margin: 0 1em; 
 	line-height: 22px;
+	overflow-x: hidden;
 }
 
 img {
 	max-width: 100%;
+}
+
+a{
+	text-decoration: none;
+	color: var(--color-text);
 }
 
 
@@ -45,9 +51,9 @@ img {
 /* Mobiel 375px */
 /****************/
 
-/****************/
-/* Header */
-/****************/
+	/****************/
+	/* Header */
+	/****************/
 
 
 header{
@@ -130,6 +136,117 @@ header ul li:last-of-type input {
 	border: none;
 	padding-left: 2.3em;
 }
+
+	/****************/
+	/* Main         */
+	/****************/
+
+		/****************/
+		/* Section 1    */
+		/****************/
+
+main section:nth-of-type(1){
+	overflow: scroll;
+	display: flex;
+	margin: 0 -1em;
+	scroll-snap-type: x mandatory;
+}
+
+main section:nth-of-type(1) article{
+	min-width: 100vw;
+	min-height: 66vw;
+	position: relative;
+	display: block;
+
+	scroll-snap-align: start;
+}
+
+main section:nth-of-type(1) article img{
+	position: absolute;
+	z-index: 0;
+	
+}
+
+main section:nth-of-type(1) article div{
+	position: relative;
+	z-index: 1000;
+}
+
+
+main section:nth-of-type(1) article:first-of-type div{
+	
+	width: 83%;
+	text-align: right;
+	position: absolute;
+	right: 2em;
+	
+}
+
+main section:nth-of-type(1) article:first-of-type div h2,main section:nth-of-type(1) article:first-of-type div p {
+	margin: 0.5em 0em;
+	font-family: 'Jua', Verdana, sans-serif;
+
+}
+
+main section:nth-of-type(1) article:first-of-type div h2 {
+	text-transform: uppercase;
+	font-weight: 900;
+	font-size: larger;
+	display: block;
+	padding: 0px;
+	
+	
+}
+
+main section:nth-of-type(1) article:first-of-type div h2 span {
+	display: inline-block;
+	background: rgb(254, 250, 251);
+	background-clip: padding-box;
+	padding: 0.2em;
+	border-radius: 0.2em;
+	font-family: 'Jua', Verdana, sans-serif;
+}
+
+main section:nth-of-type(1) article:first-of-type div h2 span:first-child {
+	border-radius: 0.2em 0.2em 0 0.2em;
+}
+main section:nth-of-type(1) article:first-of-type div h2 span:nth-child(2) {
+	border-radius: 0.2em 0 0.2em 0.2em;
+	background: rgb(192, 255, 245);
+}
+
+main section:nth-of-type(1) article:first-of-type div p{
+	display: inline-block;
+	background: rgb(231, 255, 192);
+	background-clip: padding-box;
+	padding-left: 0.2em;
+	padding-right: 0.2em;
+	font-size: 0.8em;
+	border-radius: 0.2em;
+}
+
+main section:nth-of-type(1) article:first-of-type div p:nth-of-type(2){
+	background: rgb(255, 216, 192);
+	font-size: 0.8em;
+}
+
+main section:nth-of-type(1) article:first-of-type div a{
+	position: absolute;
+	z-index: 100;
+	top: 52vw;
+	right: 0;
+	background: rgb(252, 45, 100);
+	padding: 0.7em 2em;
+	border-radius: 1.5em;
+	text-transform: uppercase;
+	font-weight: bold;
+
+}
+
+
+
+
+
 
 
 
