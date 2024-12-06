@@ -193,11 +193,12 @@
 	main section:nth-of-type(1) article img{
 		position: absolute;
 		z-index: 0;
+		height: 100%;
 		
 	}
 	
 	
-	/*first scroll overwrite*/
+	/*first scroll*/
 	
 	main section:nth-of-type(1) article div{
 		background: #B54764;
@@ -205,98 +206,59 @@
 		right: 0px;
 		width: 70%;
 		height: 100%;
+		padding: calc(0.5rem + 2vw);
 	}
 
-	main section:nth-of-type(1) article div h2, main section:nth-of-type(1) article div p {
-		margin: 0.5rem 1rem;
+	
+
+	main section:nth-of-type(1) article div h2, main section:nth-of-type(1) article div p, main section:nth-of-type(1) article div p time {
+		margin: 0px 0px 3vw;
 		font-family: 'Jua', Verdana, sans-serif;
+		color: white;
 	}
-	
-	/* first scroll  */
-	
-	
-	
-	main section:nth-of-type(1) article:first-of-type div h2 {
-		text-transform: uppercase;
-		font-weight: 900;
-		font-size: larger;
-		display: block;
-		padding: 0px;
-		
-		
-	}
-	
-	main section:nth-of-type(1) article:first-of-type div h2 span {
-		display: inline-block;
-		background: rgb(254, 250, 251, 0.8);
-		background-clip: padding-box;
-		padding: 0.2rem;
-		border-radius: 0.2rem;
-		font-family: 'Jua', Verdana, sans-serif;
-	}
-	
-	main section:nth-of-type(1) article:first-of-type div h2 span:first-child {
-		border-radius: 0.2rem 0.2rem 0 0.2rem;
-	}
-	main section:nth-of-type(1) article:first-of-type div h2 span:nth-child(2) {
-		border-radius: 0.2rem 0 0.2rem 0.2rem;
-	}
-	
-	main section:nth-of-type(1) article:first-of-type div p{
-		display: inline-block;
-		background: rgb(254, 250, 251, 0.8);
-		background-clip: padding-box;
-		padding-left: 0.2rem;
-		padding-right: 0.2rem;
-		font-size: 0.6rem;
-		border-radius: 0.2rem;
-	}
-	
-	main section:nth-of-type(1) article:first-of-type div a{
+
+
+	main section:nth-of-type(1) article div a{
 		position: absolute;
 		z-index: 100;
 		top: 52vw;
-		right: 0;
+		right: 5vw;
 		background: rgb(252, 45, 100);
 		padding: 0.7rem 2rem;
 		border-radius: 1.5rem;
 		text-transform: uppercase;
 		font-weight: bold;
-	
+
+		text-align: center;
 	}
+	
+	main section:nth-of-type(1) article div p{
+		font-size: calc(0.5rem + 2vw);
+		line-height: 18px;
+	}
+
+	main section:nth-of-type(1) article div h2 {
+		text-transform: uppercase;
+		font-weight: 900;
+		font-size: calc(1rem + 2vw);
+	}
+	
+	
 	
 	/* second scroll */
 	
-	main section:nth-of-type(1) article:nth-of-type(2) div {
-		position: absolute;
-		left: 2rem;
-		
+	main section:nth-of-type(1) article:nth-of-type(2) div{
+		background: #26BDBF;
+		left: 0px;
 	}
-	
+
 	main section:nth-of-type(1) article:nth-of-type(2) div h2, main section:nth-of-type(1) article:nth-of-type(2) div p {
-		display: inline-block;
-		background: rgb(254, 250, 251, 0.8);
-		background-clip: padding-box;
-		padding: 0.2rem;
-		border-radius: 0.2rem;
-		font-family: 'Jua', Verdana, sans-serif;
+		color: black;
 	}
 	
-	main section:nth-of-type(1) article:nth-of-type(2) div a{
-		position: absolute;
-		z-index: 100;
-		top: 52vw;
-		right: 0;
-		background: rgb(252, 45, 100);
-		padding: 0.7rem 2rem;
-		border-radius: 1.5rem;
-		text-transform: uppercase;
-		font-weight: bold;
-	}
+
 	
-	main section:nth-of-type(1) article:nth-of-type(2) div p time{
-		font-family: 'Jua', Verdana, sans-serif;
-	}
+	
 	
 			/****************/
 			/* Section 2    */
@@ -308,7 +270,9 @@
 		background-position: center;
 		background-repeat: repeat;
 		padding: 5rem 0 5rem 0;
-	
+	}
+
+	main section:nth-of-type(2){
 		display: grid;
 		gap: 0.7rem;
 		justify-items: center;
@@ -419,6 +383,7 @@
 		padding: 0px;
 		gap: 0.7rem;
 		justify-items: center;
+		justify-content: center;
 		grid-template-columns: repeat( auto-fit, minmax(18.5rem, 1fr) );
 	}
 	
@@ -499,6 +464,9 @@
 	
 	main section:nth-of-type(4) {
 		margin-top: 3rem;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
 	}
 	
 	main section:nth-of-type(4) div{
@@ -517,6 +485,7 @@
 	
 	main section:nth-of-type(4) ul {
 		gap: 2rem;
+		width: 100%;
 	}
 	
 	main section:nth-of-type(4) ul li {
@@ -529,6 +498,7 @@
 		align-items: center;
 		height: 40vh;
 		justify-content: center;
+		min-width: 18rem;
 	}
 	
 	main section:nth-of-type(4) ul li img {
@@ -581,7 +551,8 @@
 	/****************/
 
 	main section:nth-of-type(5) {
-		display: grid;
+		display: flex;
+		flex-direction: column;
 		background: #EEEEEE;
 	}
 
@@ -608,6 +579,7 @@
 	main section:nth-of-type(5) 
 	>div:first-of-type h2 span{
 		color: #B54764;
+		font-size: 1.2rem;
 	}
 
 	/* form input*/
@@ -739,12 +711,54 @@
 	
 	
 	/****************/
-	/* Medium: Tablet */
+	/* Media queries*/
 	/****************/
 	
-	@media (min-width: 645px){
+	@media (min-width: 540px){
+			/* section 1*/
+		main section:nth-of-type(1) article div p{
+			font-size: calc(0.5rem + 2vw);
+			line-height: 22px;
+		}
 	
+		main section:nth-of-type(1) article div h2 {
+			font-size: calc(1rem + 2vw);	
+			line-height: 24px;
+		}
+		
 	}
+
+	@media (min-width: 724px){
+		/* section 1*/
+		main section:nth-of-type(1) article div p{
+			font-size: calc(1rem + 2vw);
+			line-height: 35px;
+		}
+
+		main section:nth-of-type(1) article div h2 {
+			font-size: calc(2rem + 2vw);	
+			line-height: 40px;
+		}
+
+		main section:nth-of-type(1) article div a{
+			top: 56vw;
+			right: 50%;
+			width: 28vw;
+			padding: calc(em + 1vw) 0;
+		}
+
+		/* section 5*/
+
+		main section:nth-of-type(5) {
+			align-items: center;
+		}
+
+		main section:nth-of-type(5)>div {
+			width: 45rem;
+		}
+
+	}
+
 }
 
 

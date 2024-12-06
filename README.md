@@ -225,7 +225,24 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 3<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+
+  Ik heb nu eindelijk mijn eerste section gefixt met de scrollable articles erin, want ik vond ze zelf eerst heel moeilijk om vorm te geven maar ik heb nu een oplossing gevonden door de div met de tekst erin een achtergrond te geven.
+
+  <img src="readme-images/week-4-1.png" width="375px" alt="proces van website en code">
+
+  Ook heb ik eindelijk de laastste section en de footer uitgewerkt.
+
+  <img src="readme-images/week-4-2.png" width="375px" alt="proces van website en code">
+
+  Nu moet ik vooral aan de slag met de responsiveness. Ik moet nog een aantal media queries aanmaken om vooral de menu als menu-balk weer te geven in plaats van een hamburger menu. Ook moet alles als het groter wordt gewoon nog een beetje mooier zijn.
+
+  <img src="readme-images/week-4-3.png" width="375px" alt="proces van website en code">
+
+  En er zijn natuurlijk ook nog een aantal dingen van de WCAG checklist die ik nog in mijn website moet toepassen.
+
+
+
+
 
 
   ### Agenda voor meeting
@@ -238,13 +255,16 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   | ...            | ...                | ...          | ...              |
 
 
+  Niet gedaan! 
+
+
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - media queries toevoegen
+  - website mooier maken
+  - alles op responsiveness testen
+  - WCAG checklist punten toepassen
 
 </details>
 
