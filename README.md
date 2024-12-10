@@ -307,7 +307,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Nb. Vermeld de bronnen ook in je code.
 
   1. https://stackoverflow.com/questions/16056591/font-scaling-based-on-size-of-container
-  2. bron 2
-  3. ...
+  2. https://www.w3schools.com/css/css_font_style.asp
+  3. https://stackoverflow.com/questions/63474239/how-can-i-make-my-grid-template-rows-to-fit-the-content
 
 </details>
