@@ -255,6 +255,11 @@
 	main section:nth-of-type(1) article:nth-of-type(2) div h2, main section:nth-of-type(1) article:nth-of-type(2) div p {
 		color: black;
 	}
+
+	main section:nth-of-type(1) article:nth-of-type(2) img{
+		right: 0px;
+		
+	}
 	
 
 	
@@ -747,6 +752,12 @@
 			padding: calc(em + 1vw) 0;
 		}
 
+		/*section 4*/
+
+		main section:nth-of-type(4) a {
+			margin-top: 5vh;
+		}
+
 		/* section 5*/
 
 		main section:nth-of-type(5) {
@@ -759,7 +770,155 @@
 
 	}
 
+	@media (min-width: 975px) {
+		/* section 1*/
+		main section:nth-of-type(1) article div p{
+			font-size: calc(0.5rem + 2vw);
+			line-height: 35px;
+		}
+
+		main section:nth-of-type(1) article div h2 {
+			font-size: calc(1.5rem + 2vw);	
+			line-height: 40px;
+		}
+
+		main section:nth-of-type(1) article div a{
+			top: 35vw;
+			padding: calc(0.5em + 1vw) 0;
+		}
+
+		main section:nth-of-type(1) article{
+			min-height: 45vw;
+		}
+	}
+
+	@media (min-width: 992px) {
+		/* header*/
+		header {
+			position: absolute;
+			z-index: 1000;
+			display: grid;
+			grid-template-columns: 30% 70%;
+			width: 98%;
+			
+		}
+
+		header section button {
+			display: none;
+		}
+
+		header ul {
+			display: flex;
+			flex-wrap: wrap;
+			height: fit-content;
+			
+		}
+
+		/*list styling*/
+
+		header ul li{
+			background: none;
+			border: none;
+			height: 3rem;
+		}
+		
+		
+		header ul li:not(li:last-of-type)>*{
+			padding: 0.5rem;
+			display: block;
+		}
+		
+		header ul a {
+			color: white;
+		}
+		
+		header ul li:hover a{
+			color: black;
+		}
+		
+		header ul li:last-of-type {
+			min-height: 2rem;
+			background: white;
+			border-radius: var(--border-radius);
+			
+		}
+		
+		/*section 1*/
+
+		main section:nth-of-type(1) article{
+			min-height: 55vw;
+		}
+
+		main section:nth-of-type(1) article div h2{
+			margin-top: 12vh;
+		}
+
+		main section:nth-of-type(1) article:nth-of-type(2) div h2{
+			margin-top: 20vh;
+		}
+
+		main section:nth-of-type(1) article div a{
+			top: 45vw;
+			padding: calc(0.5em + 1vw) 0;
+		}
+
+		
+		
+	}
+
+	@media (min-width: 1202px) {
+		/* section 1*/
+		main section:nth-of-type(1) article div a{
+			top: 33vw;
+		}
+
+		main section:nth-of-type(1) article{
+			min-height: 40vw;
+			overflow-y: hidden;
+		}
+
+		main section:nth-of-type(1) article img{
+			min-height: 40vw;
+		}
+
+		main section:nth-of-type(1) article:nth-of-type(2) h2 {
+			margin-bottom: 1rem;
+		}
+
+		main section:nth-of-type(1) article:nth-of-type(2) p{
+			font-size: calc(0.2rem + 2vw);
+			line-height: 27px;
+		}
+		
+	}
+
+	@media (min-width: 1306px) {
+		header ul {
+			justify-content: space-between;
+		}
+
+		main section:nth-of-type(1) article:nth-of-type(2) p{
+			font-size: calc(0.5rem + 2vw);
+			line-height: 35px;
+		}
+	}
+	
+
+
+
+
+
+	/****************/
+	/*Pagina 2 - Café*/
+	/****************/
+
+
+
+
+
 }
+
+
 
 
 

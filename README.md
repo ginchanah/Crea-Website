@@ -306,7 +306,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Nb. ChatGpT en andere AI horen er ook bij.
   Nb. Vermeld de bronnen ook in je code.
 
-  1. bron 1
+  1. https://stackoverflow.com/questions/16056591/font-scaling-based-on-size-of-container
   2. bron 2
   3. ...
 
