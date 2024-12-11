@@ -210,8 +210,30 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 <details>
   <summary>uitwerken na test in 9<sup>e</sup> werkgroep</summary>
 
+  <img src="readme-images/checklist2-1.jpeg" width="375px" alt="WCAG test 2">
+  <img src="readme-images/checklist2-2.jpeg" width="375px" alt="WCAG test 2">
+  <img src="readme-images/checklist2-3.jpeg" width="375px" alt="WCAG test 2">
+  <img src="readme-images/checklist2-4.jpeg" width="375px" alt="WCAG test 2">
+  <img src="readme-images/checklist2-5.jpeg" width="375px" alt="WCAG test 2">
+
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
+
+  Verbeterd:
+  -de html en css is gevalidated!
+  -alles heeft een duidelijke focus state
+  -door de content tabben lukt in logische volgorde
+  -buttons en links zijn groot genoeg
+  -headings introduceren content en hebben een logische volgorde
+  -ik skip geen heading levels!
+  -images hebben allemaal een alt tekst
+  -links zijn duidelijk links
+  -problemen met vanzelf afspelende animatie zijn opgelost door geen animatie te hebben!
+
+  Nog te verbeteren
+  -ik heb geen skip link
+  -ik heb geen dark mode
+  -buttons en links kunnen nog meer descriptive zijn
 
 </details>
 
