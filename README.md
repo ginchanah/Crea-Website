@@ -336,5 +336,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   1. https://stackoverflow.com/questions/16056591/font-scaling-based-on-size-of-container
   2. https://www.w3schools.com/css/css_font_style.asp
   3. https://stackoverflow.com/questions/63474239/how-can-i-make-my-grid-template-rows-to-fit-the-content
+  4. https://stackoverflow.com/questions/774054/should-i-put-input-elements-inside-a-label-element
+  5. https://css-tricks.com/practical-css-scroll-snapping/
+  6. https://www.w3schools.com/cssref/pr_text_text-transform.php
+  7. https://www.w3schools.com/cssref/pr_background-image.php
+  8. https://www.w3schools.com/cssref/css3_pr_filter.php
+  9. https://css-tricks.com/snippets/css/complete-guide-grid/
 
 </details>
