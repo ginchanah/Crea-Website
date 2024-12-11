@@ -300,7 +300,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/character.png" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/character.jpg" width="375px" alt="uitomst opdracht 1">
   <img src="readme-images/character2.png" width="375px" alt="uitomst opdracht 1">
   
 
@@ -310,13 +310,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Ik ben ook heel blij met hoe ik de menu knop heb gemaakt, dat het hamburger menu werkt maar dat het ook veranderd naar een menu balk op een groter scherm!
 
   <img src="readme-images/gelukt.png" width="375px" alt="Het menu op een  klein scherm">
-  <img src="readme-images/gelukt2.png" width="375px" alt="Het menu op een groot scherm">
+  <img src="readme-images/gelukt2.jpg" width="375px" alt="Het menu op een groot scherm">
 
 
   ### Dit was lastig/Is niet gelukt:
   Ik ben uiteindelijk nog steeds niet heel blij met de eerste section van mijn website. Ik moest hier een eigen vormgeving verzinnen, omdat de tekst op de originele website werd weergegeven met een plaatje dat veels te klein was op een mobiel scherm. Dus daarom moest ik de tekst anders weergeven. Hier heb ik de meeste tijd aan besteed van de hele website, dit te veranderen een aan te passen en ook dit deel responsive te maken zodat de tekst altijd op de goede plek staat en leesbaar is. Ik heb er nu te lang naar gegeken, maar ik vind vooral dat het er niet professioneel uitziet en delen van de responsiveness niet zo goed werken. (Zie screenshot 2)
 
-  <img src="readme-images/nietgelukt.png" width="375px" alt="de eerste section van de website waarmee ik niet blij ben">
+  <img src="readme-images/nietgelukt.jpg" width="375px" alt="de eerste section van de website waarmee ik niet blij ben">
   <img src="readme-images/nietgelukt2.png" width="375px" alt="de eerste section van de website waarmee ik niet blij ben">
 </details>
 
