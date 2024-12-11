@@ -117,7 +117,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   De header is nu nog niet responsive genoeg, moet nog beter voor desktop formaat.
 
-  <img src="readme-images/proces-week1-2.png" width="375px" alt="proces van website">
+  <img src="readme-images/proces-week1-2.jpg" width="375px" alt="proces van website">
 
 
 
@@ -166,13 +166,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
    Ik heb nu ook een responsive grid voor de tweede section en beter kleurcontrast. 
 
-   <img src="readme-images/week-2-2.png" width="375px" alt="proces van website en code">
+   <img src="readme-images/week-2-2.jpg" width="375px" alt="proces van website en code">
 
    De derde section is nu ook in een responsive grid en beter kleurcontrast. Ik ben vooral trotz erop dat het image altijd binnen de verhoudingen van de figure blijft.
 
-   <img src="readme-images/week-2-3.png" width="375px" alt="proces van website en code">
+   <img src="readme-images/week-2-3.jpg" width="375px" alt="proces van website en code">
 
-   <img src="readme-images/week-2-4.png" width="375px" alt="proces van website en code">
+   <img src="readme-images/week-2-4.jpg" width="375px" alt="proces van website en code">
 
    verder moet ik vooral alles nog aanpassen en verder uitwerken, zoals bij section 4.
 
