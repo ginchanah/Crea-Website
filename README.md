@@ -220,20 +220,20 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
 
   Verbeterd:
-  -de html en css is gevalidated!
-  -alles heeft een duidelijke focus state
-  -door de content tabben lukt in logische volgorde
-  -buttons en links zijn groot genoeg
-  -headings introduceren content en hebben een logische volgorde
-  -ik skip geen heading levels!
-  -images hebben allemaal een alt tekst
-  -links zijn duidelijk links
-  -problemen met vanzelf afspelende animatie zijn opgelost door geen animatie te hebben!
+  - de html en css is gevalidated!
+  - alles heeft een duidelijke focus state
+  - door de content tabben lukt in logische volgorde
+  - buttons en links zijn groot genoeg
+  - headings introduceren content en hebben een logische volgorde
+  - ik skip geen heading levels!
+  - images hebben allemaal een alt tekst
+  - links zijn duidelijk links
+  - problemen met vanzelf afspelende animatie zijn opgelost door geen animatie te hebben!
 
   Nog te verbeteren
-  -ik heb geen skip link
-  -ik heb geen dark mode
-  -buttons en links kunnen nog meer descriptive zijn
+  - ik heb geen skip link
+  - ik heb geen dark mode
+  - buttons en links kunnen nog meer descriptive zijn
 
 </details>
 
@@ -300,19 +300,24 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/character.png" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/character2.png" width="375px" alt="uitomst opdracht 1">
+  
 
 
   ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatjes
+  Ik had hiervoor nooit met grid gewerkt en wist wel dat responsiveness belangrijk was maar had geen idee hoe dat moest. Ik wist ook nog niet dat media queries bestonden, maar door dat nu te hebben geleerd heb ik voor mijn gevoel nu een veel beter gevoel voor hoe websites maken werkt. En dat vind ik heel fijn! Maar ik had de media queries uiteindelijk ook minder nodig dan verwacht, omdat ik veel ook alleen door de grid kon oplossen. Dus, heel cool!
+  Ik ben ook heel blij met hoe ik de menu knop heb gemaakt, dat het hamburger menu werkt maar dat het ook veranderd naar een menu balk op een groter scherm!
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+  <img src="readme-images/gelukt.png" width="375px" alt="Het menu op een  klein scherm">
+  <img src="readme-images/gelukt2.png" width="375px" alt="Het menu op een groot scherm">
 
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatjes
+  Ik ben uiteindelijk nog steeds niet heel blij met de eerste section van mijn website. Ik moest hier een eigen vormgeving verzinnen, omdat de tekst op de originele website werd weergegeven met een plaatje dat veels te klein was op een mobiel scherm. Dus daarom moest ik de tekst anders weergeven. Hier heb ik de meeste tijd aan besteed van de hele website, dit te veranderen een aan te passen en ook dit deel responsive te maken zodat de tekst altijd op de goede plek staat en leesbaar is. Ik heb er nu te lang naar gegeken, maar ik vind vooral dat het er niet professioneel uitziet en delen van de responsiveness niet zo goed werken. (Zie screenshot 2)
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+  <img src="readme-images/nietgelukt.png" width="375px" alt="de eerste section van de website waarmee ik niet blij ben">
+  <img src="readme-images/nietgelukt2.png" width="375px" alt="de eerste section van de website waarmee ik niet blij ben">
 </details>
 
 
